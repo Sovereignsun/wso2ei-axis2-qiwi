@@ -1,0 +1,156 @@
+<provider buttonName="ВЭББАНКИР"
+          curId="643"
+          fiscalName="Предос.займ"
+          grpId="931"
+          id="10275"
+          inn="7733812126"
+          jDocDate="09.11.2012"
+          jDocNum="№ РИК-02-02102012"
+          jDocType="qiwi"
+          jName="ООО МФК 'ВЭББАНКИР'"
+          keywords="микрозаймы|ВЭББАНКИР"
+          lName="ВЭББАНКИР ООО"
+          logo="logos/3607014837958455664"
+          logo_crc="C7461EC4"
+          logo_size="55473"
+          maxSum="15000"
+          prvPage="modules/sinap/index.html"
+          ratingId="0"
+          receiptName="Предоставление займов"
+          sName="ВЭББАНКИР"
+          supportPhone="84956096600"
+          tag="СТАРЫЕ_АКТЫ_161_ФЗ,visible,change,new_visibility_root_rus,161_ФЗ,Провайдер выведен в Рапиду,prv_скрытие_провайдера_sinap_на_reg3">
+    <logos>
+        <logo crc="C7461EC4"
+              path="logos/3607014837958455664"
+              size="55473"
+              type="standard"/>
+    </logos>
+    <constParams/>
+    <pages>
+        <page orderId="2"
+              pageId="56367"
+              pageType="input_page">
+            <controls>
+                <control disp_name="ev_prv_txn"
+                         disp_type="extra,private"
+                         mask="<!.+${1,50}>"
+                         name="ev_prv_txn"
+                         orderId="1"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="ev_product_type"
+                         disp_type="extra,private"
+                         mask="<!.+${1,50}>"
+                         name="ev_product_type"
+                         orderId="2"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="ev_product_id"
+                         disp_type="extra,private"
+                         mask="<!.+${1,50}>"
+                         name="ev_product_id"
+                         orderId="3"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="disp4"
+                         header="Сумма займа"
+                         mask="<!.+${1,50}>"
+                         name="info1"
+                         orderId="4"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="disp5"
+                         header="Вид займа"
+                         mask="<!.+${1,50}>"
+                         name="info2"
+                         orderId="5"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="disp6"
+                         header="ФИО"
+                         mask="<!.+${1,50}>"
+                         name="info3"
+                         orderId="6"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="ev_product_type"
+                         disp_type="private,extra"
+                         mask="<!.+${1,50}>"
+                         name="ev_product_type"
+                         orderId="7"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="ev_product_id"
+                         disp_type="extra,private"
+                         mask="<!.+${1,50}>"
+                         name="ev_product_id"
+                         orderId="8"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="disp9"
+                         mask="<!.+${1,50}>"
+                         name="info4"
+                         orderId="9"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="disp11"
+                         mask="<!.+${1,50}>"
+                         name="info5"
+                         orderId="10"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+                <control disp_name="disp11"
+                         mask="<!.+${1,50}>"
+                         name="info6"
+                         orderId="11"
+                         regexp=".{1,50}$"
+                         type="disp_input"/>
+            </controls>
+        </page>
+        <page orderId="1"
+              pageId="55606"
+              useOnline="true">
+            <controls>
+                <control footer=""
+                         header="Введите логин личного кабинета webbankir.com"
+                         mask="<!d+${9,10}>"
+                         name="account"
+                         nobr="false"
+                         orderId="1"
+                         regexp="([0-9]{9}| [0-8] [0-9]{9})$"
+                         strip="false"
+                         type="text_input"/>
+                <control layout="DG"
+                         orderId="2"
+                         type="keyboard"/>
+            </controls>
+        </page>
+        <page orderId="3"
+              pageId="243056">
+            <controls>
+                <control disp_type="extra,private"
+                         header="ev_prv_txn"
+                         mask="<!.+${1,50}>"
+                         name="ev_prv_txn"
+                         orderId="3"
+                         regexp=".{1,50}$"
+                         type="text_input"/>
+                <control disp_type="extra,private"
+                         header="ev_product_type"
+                         mask="<!.+${1,50}>"
+                         name="ev_product_type"
+                         orderId="1"
+                         regexp=".{1,50}$"
+                         type="text_input"/>
+                <control disp_type="private,extra"
+                         header="ev_product_id"
+                         mask="<!.+${1,50}>"
+                         name="ev_product_id"
+                         orderId="2"
+                         regexp=".{1,50}$"
+                         type="text_input"/>
+            </controls>
+        </page>
+    </pages>
+</provider>

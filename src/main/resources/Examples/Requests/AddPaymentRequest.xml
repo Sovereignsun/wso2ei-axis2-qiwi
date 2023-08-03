@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <AddPayment xmlns="http://ProxyService">
+            <xml>&lt;xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+                xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset"
+                xmlns:z="#RowsetSchema">
+                &lt;rs:data>
+                &lt;z:row ID="171926577" K_ID="171926577" L_PAYMENTS="54921" SERV_ID="55473" SERVICE="TELE2"
+                F_DATE="2023-07-20T12:35:06" L_CHRG_RECORDS="" DATE_TRAN="1899-12-30T00:00:00"
+                DATE_CREATE="2023-07-20T12:35:06" DATE_VAL="1899-12-30T00:00:00" DATE_PAYM="2023-07-20T12:35:05"
+                NUMBER_PAYM="575312" SUMMA="300" FULL_SUMM="300" IS_QUICK="0" USER_ID="4684" OWNER="USER_GATEISIMPLE"
+                CONTROLLER="" SHORT_NAME="" L_TPP="274" STATUS="1" F_ONLINE_STATUS="1" F_GIS_STATUS="0" L_OUT_RECORD="0"
+                F_GUID="5ea8245dc31e435a9d4b" F_ATTENTION="0" COMMISSION="0" F_KASS_SYMB="" L_CUST_ID="4416401"
+                L_BCUST_ID="" L_CUST_DOC_ID="" L_BCUST_DOC_ID="" L_CUST_XXI_ID="" L_BCUST_XXI_ID=""
+                L_CUST_IDENT_RESULT_CODE="" L_CUST_IDENT_RESULT_DESCR="" L_BCUST_IDENT_RESULT_CODE=""
+                L_BCUST_IDENT_RESULT_DESCR="" F_EXT_ID="" GR_USER="3" L_DEPARTMENT="0" F_CHILD_ID="5ea8245dc31e435a9d4b"
+                F_BIT_MASK="0" L_BANDEROL="" L_PERIOD_TRANS="21" L_CUSTOMER="" F_ISCASHLESS="1" F_AUTHORIZATIONCODE=""
+                F_REFERENCENUMBER="" F_RECONCILIATION="1" F_ERROR_TEXT="" F_ERROR_TEXT_GIS="" F_ACQUIRER_RRN=""
+                F_ACQUIRER_PAN="" L_ACQUIRER_TERM="" F_ACQUIRER_TERM_ID="" F_ACQUIRER_INTREF="" F_ACQUIRER_AUTHCODE=""
+                F_ACQUIRER_TIMESTAMP="1899-12-30T00:00:00" F_ACQUIRER_ID="" F_COMMISSION_SUM="" F_REIMBURSE_SUM=""
+                F_CHCK_RECEIVER="" F_CHCK_STATUS="" F_CHCK_ERROR_TXT="" F_CHCK_STATE_DATE="1899-12-30T00:00:00"
+                F_INKASS="0" IS_PDL="0" PAYER_NAME_FULL="ГРИДАСОВ СЕРГЕЙ ЕВГЕНЬЕВИЧ" PAYER_PHONES="88612749038"
+                PAYER_ADDR="Краснодарский, Краснодар, им Игнатова, 8, 124" BENEFIT_NAME_FULL=" " BENEFIT_PHONES=""
+                L_SEGMENT="17" SEGMENT_NAME="Связь, интернет, каб.телевидение" PHONE="9528314286" INKASS="0"
+                PAN_MASK=""/>
+                &lt;/rs:data>
+                &lt;/xml>
+            </xml>
+            <dataList>
+                <Data>
+                    <Name>SESSION_ID</Name>
+                    <Value>
+                        125A302A-0C6D-4A08-BC3F-E1110086D3AF#dQMHAwMGAAIABXF0BgAAAHYKAAAGBX4AAARwBwUJeQ5wcnJ3OAMCcAMbAnQABAsWcB0OcncIHHV/
+                        BQof
+                    </Value>
+                </Data>
+                <Data>
+                    <Name>SERVICE_ID</Name>
+                    <Value>55473</Value>
+                </Data>
+                <Data>
+                    <Name>TYPE_PMNT_ID</Name>
+                    <Value>54921</Value>
+                </Data>
+            </dataList>
+        </AddPayment>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,55 @@
+<provider buttonName="TELE2"
+          curId="643"
+          fiscalName="Сотовая св."
+          grpId="20"
+          id="42"
+          inn="6163025500"
+          jDocDate="01.10.2005"
+          jDocNum="310"
+          jDocType="qiwi"
+          jName="ЗАО &quot;Ростовская сотовая связь&quot;"
+          keywords="tele 2|tele2|tele|теле два|теле2"
+          lName="ЗАО &quot;Ростовская сотовая связь&quot;"
+          logo="logos/!anonymous/prv42_9dec709.gif"
+          logo_crc="9DEC709"
+          logo_size="898"
+          maxSum="15000"
+          minSum=".01"
+          ratingId="1"
+          receiptName="Сотовая связь"
+          sName="TELE2"
+          small_logo="logos/!anonymous/prv42_a734abf.gif"
+          small_logo_crc="A734ABF"
+          small_logo_size="1662"
+          supportPhone="+79515200610"
+          tag="visible,ranges,Tele2,norubl,sms_advert,Провайдеры Tele2,Неправильные провы">
+    <logos>
+        <logo crc="9DEC709"
+              path="logos/!anonymous/prv42_9dec709.gif"
+              size="898"
+              type="standard"/>
+        <logo crc="A734ABF"
+              path="logos/!anonymous/prv42_a734abf.gif"
+              size="1662"
+              type="top8"/>
+    </logos>
+    <constParams/>
+    <pages>
+        <page orderId="1"
+              pageId="657">
+            <controls>
+                <control footer="Номер телефона вводится без '8'"
+                         header="Введите номер телефона"
+                         mask="(&lt;!^\\d+${3}&gt;)&lt;!^\\d+${3}&gt;-&lt;!^\\d+${2}&gt;-&lt;!^\\d+${2}&gt;"
+                         name="account"
+                         orderId="1"
+                         regexp="^\\d{10}$"
+                         strip="true"
+                         type="text_input"/>
+                <control layout="DG"
+                         orderId="2"
+                         type="keyboard"/>
+            </controls>
+        </page>
+    </pages>
+</provider>

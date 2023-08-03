@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <echoGetFieldsReestrChrg xmlns="http://ws.apache.org/ns/synapse">
+            <Value>
+                <SessionId>
+                    7FE9EC4B-9B81-445A-8F37-E195C92C53C6#BXcEDXN7cXMAAHELdAAABAdwAHl3A3MAAAgBBQIABXUFBnQPTgNxBgUVdQYACAtndx0OBAQLHHgL+B3QU
+                </SessionId>
+                <Id>52331</Id>
+            </Value>
+        </echoGetFieldsReestrChrg>
+    </soapenv:Body>
+</soapenv:Envelope>

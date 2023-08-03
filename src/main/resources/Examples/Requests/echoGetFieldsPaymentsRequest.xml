@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <echoGetFieldsPayments_ xmlns="http://ws.apache.org/ns/synapse">
+            <Value>
+                <SessionId>C5B17B9B-34F9-49A4-B9CA-0504338813AE</SessionId>
+                <Id>80949</Id>
+            </Value>
+        </echoGetFieldsPayments_>
+    </soapenv:Body>
+</soapenv:Envelope>

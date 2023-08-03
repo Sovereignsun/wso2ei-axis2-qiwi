@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <PossPayment xmlns="http://ProxyService">
+            <xml>&lt;xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+                xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset"
+                xmlns:z="#RowsetSchema">&lt;rs:data xmlns:rs="urn:abc">&lt;z:row xmlns:z="urn:abc"
+                DATE_CREATE="2023-07-19T13:37:06" DATE_PAYM="2023-07-19T13:37:05" NUMBER_PAYM="509819" SUMMA="400"
+                COMMISSION="0" TPP="274" IS_QUICK="0" F_GUID="9465697b5152455c8d34" F_CHILD_ID="9465697b5152455c8d34"
+                F_ATTENTION="0" F_ISCASHLESS="1" ACCOUNT="231717644" INKASS="0" PAN_MASK="" XXI_CUST_ID="3561210"/>&lt;/rs:data>&lt;/xml>
+            </xml>
+            <dataList>
+                <Data>
+                    <Name>SESSION_ID</Name>
+                    <Value>
+                        7FE9EC4B-9B81-445A-8F37-E195C92C53C6#BXcEDXN7cXMAAHELdAAABAdwAHl3A3MAAAgBBQIABXUFBnQPTgNxBgUVdQYACAtndx0OBAQLHHgLB3QU
+                    </Value>
+                </Data>
+                <Data>
+                    <Name>SERVICE_ID</Name>
+                    <Value>79384</Value>
+                </Data>
+                <Data>
+                    <Name>TYPE_PMNT_ID</Name>
+                    <Value>80949</Value>
+                </Data>
+            </dataList>
+        </PossPayment>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

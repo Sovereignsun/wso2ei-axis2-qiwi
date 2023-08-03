@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request>
+    <client terminal="111" software="Dealer v0" serial=""/>
+    <providers>
+        <getPaymentStatus>
+            <payment id="301"/>
+        </getPaymentStatus>
+    </providers>
+</request>

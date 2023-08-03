@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request>
+    <client terminal="10788430"
+            software="Dealer v0"/>
+    <providers>
+        <getUIProviders/>
+    </providers>
+</request>

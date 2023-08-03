@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Header>
+        <BodySign xsi:type="xsd:string"/>
+    </soapenv:Header>
+    <soapenv:Body xmlns:NS2="http://esb.bank.srv/gate/contract"
+                  SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <NS2:echoGetFieldsReestrChrgResponse>
+            <NS2:TXmlReturnMessage xsi:type="NS2:TXmlReturnMessage">
+                <XML xsi:type="xsd:string">&lt;xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+                    xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882' xmlns:rs='urn:schemas-microsoft-com:rowset'
+                    xmlns:z='#RowsetSchema'>
+                    &lt;rs:data>
+                    &lt;z:row
+                    K_ID='154706'
+                    L_TYPE_REESTR='52331'
+                    L_TYPE='161'
+                    F_COD_REESTR='649'
+                    F_NAME='ACCOUNT'
+                    OBLIGATORY='1'
+                    DATE_ACTIVE='2022-11-01T15:05:07'
+                    ACTIVE='1'
+                    DESCRIPTION='Номер лицевого счета'
+                    F_ORDER='0'
+                    F_REGEXP='^\d{9}|\d{10}$'
+                    SEARCHABLE='0'
+                    TYPE_REESTR='Проверка возможности создания платежа'
+                    F_TYPE='VARCHAR2'
+                    TABLE_NAME='CHRG$RA_PHONE'
+                    FIELD_NAME='F_PHONE'
+                    FIELD_SIZE='20'
+                    EXACT_SRCH='1'
+                    VISIBLE='1'
+                    REPEATED='1'
+                    MOBILE_VISIBLE='1'
+                    HINT='9 или 10 цифр'
+                    SPRAV_DESCR='НЕ УКАЗАН'
+                    F_IS_SUMMA='0'
+                    F_DBO_TEMPLATE='0'/>
+                    &lt;/rs:data>
+                    &lt;/xml>
+                </XML>
+                <Error xsi:type="xsd:string">0</Error>
+                <ErrorMessage xsi:type="xsd:string">Получен список полей реестра</ErrorMessage>
+            </NS2:TXmlReturnMessage>
+        </NS2:echoGetFieldsReestrChrgResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

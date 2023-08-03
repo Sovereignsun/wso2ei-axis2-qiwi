@@ -1,0 +1,35 @@
+ActiveMQ:
+  url: "tcp://localhost:61616"
+  username: "admin"
+  password: "admin"
+  consumeMessagesPerCall: 5
+  consumeInterval: 60
+  consumeActive: true
+  paymentStatusQueueName: "QiwiGetPaymentStatus"
+GateContract:
+  url: "http://localhost:9008/soap/IGateContract"
+  connectionTimeout: 10
+  readTimeout: 30
+GatePayments:
+  url: "http://localhost:9010/soap/IGatePayments"
+  connectionTimeout: 10
+  readTimeout: 30
+Oracle:
+  url: "jdbc:oracle:thin:@url:port/schema"
+  username: "user"
+  password: "password"
+Qiwi:
+  url: "http://qiwi.srv:19053"
+  connectionTimeout: 10
+  readTimeout: 30
+  login: "dev"
+  privateKeyPath: "/pcks1.key"
+  keyIsResource: true
+  publicKeyStoreType: "1"
+  signAlgorithm: "MD5"
+  software: "Dealer v0"
+  terminalId: "0000000"
+  userAgent: "Agent"
+  digitalSignAlgorithm: "SHA1withRSA"
+  fixedAmount: "10.00"
+  devMode: false

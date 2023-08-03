@@ -1,0 +1,39 @@
+<service name="QiwiService" scope="application" class="ru.kubankredit.qiwi.Qiwi">
+    <description>
+        A standalone AXIS2 web service utilizing QIWI integration and deployable in a WSO2 EI environment
+    </description>
+    <messageReceivers>
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"
+                         mep="http://www.w3.org/2004/08/wsdl/in-only"/>
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"
+                         mep="http://www.w3.org/2004/08/wsdl/in-out"/>
+    </messageReceivers>
+    <operation name="ProxyToQiwi">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+    </operation>
+    <operation name="GetCharges">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+        <actionMapping>http://ProxyService/IProxyService/GetCharges</actionMapping>
+    </operation>
+    <operation name="PossPayment">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+        <actionMapping>http://ProxyService/IProxyService/PossPayment</actionMapping>
+    </operation>
+    <operation name="AddPayment">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+        <actionMapping>http://ProxyService/IProxyService/AddPayment</actionMapping>
+    </operation>
+    <operation name="GetBalance">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+    </operation>
+    <operation name="GetUIProviders">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+    </operation>
+    <operation name="SetPublicKey">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+    </operation>
+    <operation name="Version">
+        <messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+    </operation>
+    <parameter locked="true" name="ServiceClass">ru.kubankredit.qiwi.Qiwi</parameter>
+</service>

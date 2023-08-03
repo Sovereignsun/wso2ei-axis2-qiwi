@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<request>
+    <client terminal="10788430" software="Dealer v0"/>
+    <agents>
+        <getBalance/>
+    </agents>
+</request>

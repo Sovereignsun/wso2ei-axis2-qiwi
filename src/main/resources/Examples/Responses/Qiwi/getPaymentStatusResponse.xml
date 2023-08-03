@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response result="0">
+    <providers>
+        <getPaymentStatus result="0">
+            <payment date="2011-12-04T19:23:10+04:00" fatal="false" id="301"
+                     result="0" status="2" uid="10625592616002">
+                <extras AUTH_HOST="app2.osmp.ru" PARSER_HOST="app5.osmp.ru"/>
+            </payment>
+        </getPaymentStatus>
+    </providers>
+</response>

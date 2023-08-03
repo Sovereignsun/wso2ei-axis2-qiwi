@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+>
+    <SOAP-ENV:Body>
+        <AddPaymentResponse xmlns="http://ProxyService">
+            <AddPaymentResult xmlns:a="http://schemas.datacontract.org/2004/07/ProxyService"
+            >
+                <a:Message>Success</a:Message>
+                <a:DetailedMessage>OK</a:DetailedMessage>
+                <a:State>Success</a:State>
+                <a:Xml/>
+            </AddPaymentResult>
+        </AddPaymentResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

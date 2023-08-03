@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+>
+    <SOAP-ENV:Body>
+        <GetChargesResponse xmlns="http://ProxyService">
+            <GetChargesResult xmlns:a="http://schemas.datacontract.org/2004/07/ProxyService"
+            >
+                <a:Message>Ok</a:Message>
+                <a:State>Success</a:State>
+                <a:Xml>
+                    <return xmlns="http://ws.apache.org/ns/synapse"
+                    >
+                        <rows>
+                            <row>
+                                <ID>0</ID>
+                                <ACCOUNT>231717644</ACCOUNT>
+                            </row>
+                        </rows>
+                    </return>
+                </a:Xml>
+            </GetChargesResult>
+        </GetChargesResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

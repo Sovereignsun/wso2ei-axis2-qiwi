@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<response enumResult="0">
+    <agents>
+        <getBalance enumResult="0">
+            <agent-id>5193728</agent-id>
+            <balance>1000000.00</balance>
+            <tree-balance>1010000.00</tree-balance>
+            <overdraft>-10000.00</overdraft>
+        </getBalance>
+    </agents>
+</response>
